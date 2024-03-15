@@ -1,0 +1,18 @@
+<div{{ attributes }}>
+  {% for item in computed.items %}
+    <twig:Inner
+      item="{{ item.name }}"
+    />
+  {% endfor %}
+
+  {% for item in computed.otherItems %}
+    <twig:Inner
+      item="{{ item.name }}"
+    />
+  {% endfor %}
+
+  <button
+    data-action="live#action"
+    data-live-action-param="updateItems"
+  />
+</div>
