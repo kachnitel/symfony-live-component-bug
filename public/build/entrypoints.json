@@ -3,7 +3,11 @@
     "app": {
       "js": [
         "/build/runtime.js",
+        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_symfony_ux-live-compo-a27e3d.js",
         "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
       ]
     }
   }

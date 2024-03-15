@@ -1,7 +1,12 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}Hello AsdfController!{% endblock %}
-
-{% block body %}
-  <twig:Outer />
-{% endblock %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    {{ encore_entry_script_tags('app') }}
+  </head>
+  <body>
+    {% block body %}
+      <twig:Outer />
+    {% endblock %}
+  </body>
+</html>
