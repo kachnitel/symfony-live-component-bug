@@ -1,12 +1,14 @@
 <div{{ attributes }}>
   {% for item in computed.items %}
     <twig:Inner
+      id="{{ item.id }}"
       item="{{ item.name }}"
     />
   {% endfor %}
 
   {% for item in computed.otherItems %}
     <twig:Inner
+      id="{{ item.id }}"
       item="{{ item.name }}"
     />
   {% endfor %}
